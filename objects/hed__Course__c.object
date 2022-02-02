@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Course_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Course_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>hed__HEDA_Course_Compact_Layout</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Academic Course offered by a Department or School, for example, English 101 or Ancient History.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Course</label>
+    <nameField>
+        <label>Course Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Courses</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>hed__HEDA_Course_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>hed__Course_ID__c</fields>
+        <fields>hed__Account__c</fields>
+        <fields>hed__Credit_Hours__c</fields>
+        <label>HEDA Course Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>Course_code__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Código del programa que utiliza la universidad para identificar los cursos</description>
+        <externalId>true</externalId>
+        <label>Código del curso</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Issuer__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The issuing organization of the Course.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The issuing organization of the Course.</inlineHelpText>
+        <label>Issuer</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Courses (Issuer)</relationshipLabel>
+        <relationshipName>Issued_Courses</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hed__Account__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The department (Account record) that offers this Course.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The department (Account record) that offers this Course.</inlineHelpText>
+        <label>Department</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Courses</relationshipLabel>
+        <relationshipName>Courses</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>hed__Subject__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The subject matter of the Course.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The subject matter of the Course.</inlineHelpText>
+        <label>Subject</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Agriculture</fullName>
+                    <default>false</default>
+                    <label>Agriculture</label>
+                </value>
+                <value>
+                    <fullName>Architecture</fullName>
+                    <default>false</default>
+                    <label>Architecture</label>
+                </value>
+                <value>
+                    <fullName>Biology</fullName>
+                    <default>false</default>
+                    <label>Biology</label>
+                </value>
+                <value>
+                    <fullName>Business, Management, and Marketing</fullName>
+                    <default>false</default>
+                    <label>Business, Management, and Marketing</label>
+                </value>
+                <value>
+                    <fullName>Communication</fullName>
+                    <default>false</default>
+                    <label>Communication</label>
+                </value>
+                <value>
+                    <fullName>Computer and Information Sciences</fullName>
+                    <default>false</default>
+                    <label>Computer and Information Sciences</label>
+                </value>
+                <value>
+                    <fullName>Education</fullName>
+                    <default>false</default>
+                    <label>Education</label>
+                </value>
+                <value>
+                    <fullName>Engineering</fullName>
+                    <default>false</default>
+                    <label>Engineering</label>
+                </value>
+                <value>
+                    <fullName>English Language and Literature/Letters</fullName>
+                    <default>false</default>
+                    <label>English Language and Literature/Letters</label>
+                </value>
+                <value>
+                    <fullName>Family and Consumer Sciences</fullName>
+                    <default>false</default>
+                    <label>Family and Consumer Sciences</label>
+                </value>
+                <value>
+                    <fullName>Foreign Languages</fullName>
+                    <default>false</default>
+                    <label>Foreign Languages</label>
+                </value>
+                <value>
+                    <fullName>General Studies and Humanities</fullName>
+                    <default>false</default>
+                    <label>General Studies and Humanities</label>
+                </value>
+                <value>
+                    <fullName>Health Professions</fullName>
+                    <default>false</default>
+                    <label>Health Professions</label>
+                </value>
+                <value>
+                    <fullName>History</fullName>
+                    <default>false</default>
+                    <label>History</label>
+                </value>
+                <value>
+                    <fullName>Legal Professions and Studies</fullName>
+                    <default>false</default>
+                    <label>Legal Professions and Studies</label>
+                </value>
+                <value>
+                    <fullName>Mathematics and Statistics</fullName>
+                    <default>false</default>
+                    <label>Mathematics and Statistics</label>
+                </value>
+                <value>
+                    <fullName>Natural Resources and Conservation</fullName>
+                    <default>false</default>
+                    <label>Natural Resources and Conservation</label>
+                </value>
+                <value>
+                    <fullName>Philosophy and Religious Studies</fullName>
+                    <default>false</default>
+                    <label>Philosophy and Religious Studies</label>
+                </value>
+                <value>
+                    <fullName>Physical Sciences</fullName>
+                    <default>false</default>
+                    <label>Physical Sciences</label>
+                </value>
+                <value>
+                    <fullName>Psychology</fullName>
+                    <default>false</default>
+                    <label>Psychology</label>
+                </value>
+                <value>
+                    <fullName>Social Sciences</fullName>
+                    <default>false</default>
+                    <label>Social Sciences</label>
+                </value>
+                <value>
+                    <fullName>Visual and Performing Arts</fullName>
+                    <default>false</default>
+                    <label>Visual and Performing Arts</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Course_ID__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The Course alphanumeric ID., for example, English 101.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Course alphanumeric ID., for example, English 101.</inlineHelpText>
+        <label>Course ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>This field has been replaced by the Extended Description field, which accomodates longer descriptions. Your admin can migrate text from the Description to the Extended Description field in EDA Settings | Courses.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field has been replaced by the Extended Description field, which accomodates longer descriptions. Your admin can migrate text from the Description to the Extended Description field in EDA Settings | Courses.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>hed__Credit_Hours__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Credit Hours</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Academic_Level__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The grade-level, developmental level, or age-level of the Course.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Academic Level of the Course. For example, the Course was offered in high school.</inlineHelpText>
+        <label>Academic Level</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-K/Preschool</fullName>
+                    <default>false</default>
+                    <label>Pre-K/Preschool</label>
+                </value>
+                <value>
+                    <fullName>Elementary</fullName>
+                    <default>false</default>
+                    <label>Elementary</label>
+                </value>
+                <value>
+                    <fullName>Middle School</fullName>
+                    <default>false</default>
+                    <label>Middle School</label>
+                </value>
+                <value>
+                    <fullName>High School</fullName>
+                    <default>false</default>
+                    <label>High School</label>
+                </value>
+                <value>
+                    <fullName>Undergraduate</fullName>
+                    <default>false</default>
+                    <label>Undergraduate</label>
+                </value>
+                <value>
+                    <fullName>Graduate</fullName>
+                    <default>false</default>
+                    <label>Graduate</label>
+                </value>
+                <value>
+                    <fullName>Doctoral</fullName>
+                    <default>false</default>
+                    <label>Doctoral</label>
+                </value>
+                <value>
+                    <fullName>Post-Baccalaureate Certificate</fullName>
+                    <default>false</default>
+                    <label>Post-Baccalaureate Certificate</label>
+                </value>
+                <value>
+                    <fullName>Adult Education</fullName>
+                    <default>false</default>
+                    <label>Adult Education</label>
+                </value>
+                <value>
+                    <fullName>Professional Education</fullName>
+                    <default>false</default>
+                    <label>Professional Education</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Extended_Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Use this field to describe the Course, up to a maxium of 131,000 characters. This field replaces the Description field.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to describe the Course, up to a maxium of 131,000 characters. This field replaces the Description field.</inlineHelpText>
+        <label>Extended Description</label>
+        <length>131072</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>hed__Credentialing_Identifier__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>An International Resource Identifier that uniquely identifies this credential.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>An International Resource Identifier that uniquely identifies this credential.</inlineHelpText>
+        <label>Credentialing Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <listViews>
+        <fullName>hed__All</fullName>
+        <columns>NAME</columns>
+        <columns>hed__Account__c</columns>
+        <columns>hed__Course_ID__c</columns>
+        <columns>hed__Credit_Hours__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

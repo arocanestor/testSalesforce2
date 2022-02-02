@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Identifies the type of Test taken and the Test provider. For example, the SAT administered by the College Board.</description>
+    <label>Test Definition</label>
+    <pluralLabel>Test Definitions</pluralLabel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>hed__Test_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the Test. For example, SAT or TOEFL.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The name of the Test. For example, SAT or TOEFL.</inlineHelpText>
+        <label>Test Type</label>
+        <required>true</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SAT</fullName>
+                    <default>false</default>
+                    <label>SAT</label>
+                </value>
+                <value>
+                    <fullName>ACT</fullName>
+                    <default>false</default>
+                    <label>ACT</label>
+                </value>
+                <value>
+                    <fullName>GRE</fullName>
+                    <default>false</default>
+                    <label>GRE</label>
+                </value>
+                <value>
+                    <fullName>GMAT</fullName>
+                    <default>false</default>
+                    <label>GMAT</label>
+                </value>
+                <value>
+                    <fullName>TOEFL</fullName>
+                    <default>false</default>
+                    <label>TOEFL</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The description of the Test.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The description of the Test.</inlineHelpText>
+        <label>Description</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>hed__Issuer_Name__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The name of the organization who issued the Test.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The name of the organization who issued the Test.</inlineHelpText>
+        <label>Issuer Name</label>
+        <length>80</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Issuer_Email__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The email address of the organization issuing the test.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The email address of the organization issuing the test.</inlineHelpText>
+        <label>Issuer Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Academic_Level__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The grade-level, developmental level, or age-level that the Test Definition was designed for.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The Academic Level of the Test. For example, the Test was offered in High School.</inlineHelpText>
+        <label>Academic Level</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pre-K/Preschool</fullName>
+                    <default>true</default>
+                    <label>Pre-K/Preschool</label>
+                </value>
+                <value>
+                    <fullName>Elementary</fullName>
+                    <default>false</default>
+                    <label>Elementary</label>
+                </value>
+                <value>
+                    <fullName>Middle School</fullName>
+                    <default>false</default>
+                    <label>Middle School</label>
+                </value>
+                <value>
+                    <fullName>High School</fullName>
+                    <default>false</default>
+                    <label>High School</label>
+                </value>
+                <value>
+                    <fullName>Undergraduate</fullName>
+                    <default>false</default>
+                    <label>Undergraduate</label>
+                </value>
+                <value>
+                    <fullName>Graduate</fullName>
+                    <default>false</default>
+                    <label>Graduate</label>
+                </value>
+                <value>
+                    <fullName>Doctoral</fullName>
+                    <default>false</default>
+                    <label>Doctoral</label>
+                </value>
+                <value>
+                    <fullName>Post-Baccalaureate Certificate</fullName>
+                    <default>false</default>
+                    <label>Post-Baccalaureate Certificate</label>
+                </value>
+                <value>
+                    <fullName>Adult Education</fullName>
+                    <default>false</default>
+                    <label>Adult Education</label>
+                </value>
+                <value>
+                    <fullName>Professional Education</fullName>
+                    <default>false</default>
+                    <label>Professional Education</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Credits_Available__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The number of credits that could be earned taking the Test.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The number of credits that could be earned taking the Test.</inlineHelpText>
+        <label>Credits Available</label>
+        <precision>9</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Credentialing_Identifier__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>An International Resource Identifier that uniquely identifies this credential.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>An International Resource Identifier that uniquely identifies this credential.</inlineHelpText>
+        <label>Credentialing Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Issuer_Credentialing_Identifier__c</fullName>
+        <deprecated>false</deprecated>
+        <description>An International Resource Identifier that uniquely identifies the issuing organization of this type of Test for credentialing purposes.</description>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>An International Resource Identifier that uniquely identifies the issuing organization of this type of Test for credentialing purposes.</inlineHelpText>
+        <label>Issuer Credentialing Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>hed__All_Test_Definitions</fullName>
+        <columns>MasterLabel</columns>
+        <columns>hed__Test_Type__c</columns>
+        <columns>hed__Academic_Level__c</columns>
+        <columns>hed__Issuer_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Test Definitions</label>
+        <language>en_US</language>
+    </listViews>
+</CustomObject>
