@@ -1,0 +1,1020 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Attribute_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Attribute_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>A characteristic of or a credential held by the associated Contact. For example, an Attribute record with a Credential record type can indicate that a faculty member has a Multiple Subject Teaching Credential.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Attribute</label>
+    <nameField>
+        <label>Attribute Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Attributes</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <compactLayouts>
+        <fullName>hed__EDA_Credential_Attribute_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>hed__Contact__c</fields>
+        <fields>hed__Credential__c</fields>
+        <fields>hed__Status__c</fields>
+        <fields>hed__Field_Of_Study__c</fields>
+        <fields>hed__Start_Date__c</fields>
+        <fields>hed__End_Date__c</fields>
+        <label>EDA Credential Attribute Compact Layout</label>
+    </compactLayouts>
+    <compactLayouts>
+        <fullName>hed__EDA_Student_Characteristic_Attribute_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>hed__Contact__c</fields>
+        <fields>hed__Attribute_Type__c</fields>
+        <fields>hed__Start_Date__c</fields>
+        <fields>hed__End_Date__c</fields>
+        <fields>hed__Expired__c</fields>
+        <label>EDA Student Characteristic Attribute Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>hed__Role__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The role of the person when achieving an associated Credential.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The role of the person when achieving an associated Credential.</inlineHelpText>
+        <label>Role</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Student</fullName>
+                    <default>false</default>
+                    <label>Student</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Agency__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The agency that provided or certified the credential.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The agency that provided or certified the credential.</inlineHelpText>
+        <label>Agency</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Attributes</relationshipLabel>
+        <relationshipName>Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hed__Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The status of the Attribute. For example, In Progress or Completed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The status of the Attribute. For example, In Progress or Completed.</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Enrolled</fullName>
+                    <default>false</default>
+                    <label>Enrolled</label>
+                </value>
+                <value>
+                    <fullName>Failed</fullName>
+                    <default>false</default>
+                    <label>Failed</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Withdrew</fullName>
+                    <default>false</default>
+                    <label>Withdrew</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>The person this Attribute applies to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The person this Attribute applies to.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Attributes</relationshipLabel>
+        <relationshipName>Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hed__Expired__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates whether the Attribute has expired. This is selected automatically if the Attribute End Date is in the past.</description>
+        <externalId>false</externalId>
+        <formula>TODAY() &gt;  hed__End_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Indicates whether the Attribute has expired. This is selected automatically if the Attribute End Date is in the past.</inlineHelpText>
+        <label>Expired</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>hed__End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date when the credential or Attribute expires or requires renewal.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date when the credential or Attribute expires or requires renewal.</inlineHelpText>
+        <label>End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hed__Credential__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <deprecated>false</deprecated>
+        <description>A lookup to the Credential that this Attribute applies to.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The Credential that this Attribute applies to.</inlineHelpText>
+        <label>Credential</label>
+        <referenceTo>hed__Credential__c</referenceTo>
+        <relationshipLabel>Attributes</relationshipLabel>
+        <relationshipName>Attributes</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>hed__Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The issue date for the credential or Attribute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The issue date for the credential or Attribute.</inlineHelpText>
+        <label>Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hed__Description__c</fullName>
+        <deprecated>false</deprecated>
+        <description>More details about the credential or student Attribute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>More details about the credential or student Attribute.</inlineHelpText>
+        <label>Description</label>
+        <length>32768</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>hed__Subject_Area__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The content or subject area that a credential is for.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The content or subject area that a credential is for.</inlineHelpText>
+        <label>Subject Area</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Biology</fullName>
+                    <default>false</default>
+                    <label>Biology</label>
+                </value>
+                <value>
+                    <fullName>Career and Technical Education</fullName>
+                    <default>false</default>
+                    <label>Career and Technical Education</label>
+                </value>
+                <value>
+                    <fullName>Economics</fullName>
+                    <default>false</default>
+                    <label>Economics</label>
+                </value>
+                <value>
+                    <fullName>English Language Arts</fullName>
+                    <default>false</default>
+                    <label>English Language Arts</label>
+                </value>
+                <value>
+                    <fullName>Fine and Performing Arts</fullName>
+                    <default>false</default>
+                    <label>Fine and Performing Arts</label>
+                </value>
+                <value>
+                    <fullName>Foreign Language</fullName>
+                    <default>false</default>
+                    <label>Foreign Language</label>
+                </value>
+                <value>
+                    <fullName>History</fullName>
+                    <default>false</default>
+                    <label>History</label>
+                </value>
+                <value>
+                    <fullName>Life and Physical Sciences</fullName>
+                    <default>false</default>
+                    <label>Life and Physical Sciences</label>
+                </value>
+                <value>
+                    <fullName>Mathematics</fullName>
+                    <default>false</default>
+                    <label>Mathematics</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Physical, Health, and Safety Education</fullName>
+                    <default>false</default>
+                    <label>Physical, Health, and Safety Education</label>
+                </value>
+                <value>
+                    <fullName>Physics</fullName>
+                    <default>false</default>
+                    <label>Physics</label>
+                </value>
+                <value>
+                    <fullName>Psychology</fullName>
+                    <default>false</default>
+                    <label>Psychology</label>
+                </value>
+                <value>
+                    <fullName>Science</fullName>
+                    <default>false</default>
+                    <label>Science</label>
+                </value>
+                <value>
+                    <fullName>Social Studies</fullName>
+                    <default>false</default>
+                    <label>Social Studies</label>
+                </value>
+                <value>
+                    <fullName>Sociology</fullName>
+                    <default>false</default>
+                    <label>Sociology</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Attribute_Type__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The kind of credential or student Attribute.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The kind of credential or student Attribute.</inlineHelpText>
+        <label>Attribute Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Certification</fullName>
+                    <default>false</default>
+                    <label>Certification</label>
+                </value>
+                <value>
+                    <fullName>Endorsement</fullName>
+                    <default>false</default>
+                    <label>Endorsement</label>
+                </value>
+                <value>
+                    <fullName>Licensure</fullName>
+                    <default>false</default>
+                    <label>Licensure</label>
+                </value>
+                <value>
+                    <fullName>Accommodation</fullName>
+                    <default>false</default>
+                    <label>Accommodation</label>
+                </value>
+                <value>
+                    <fullName>Asylee</fullName>
+                    <default>false</default>
+                    <label>Asylee</label>
+                </value>
+                <value>
+                    <fullName>Economically Disadvantaged</fullName>
+                    <default>false</default>
+                    <label>Economically Disadvantaged</label>
+                </value>
+                <value>
+                    <fullName>English Learners</fullName>
+                    <default>false</default>
+                    <label>English Learners</label>
+                </value>
+                <value>
+                    <fullName>Family Consideration</fullName>
+                    <default>false</default>
+                    <label>Family Consideration</label>
+                </value>
+                <value>
+                    <fullName>Foster Care</fullName>
+                    <default>false</default>
+                    <label>Foster Care</label>
+                </value>
+                <value>
+                    <fullName>Free Lunch</fullName>
+                    <default>false</default>
+                    <label>Free Lunch</label>
+                </value>
+                <value>
+                    <fullName>Homeless</fullName>
+                    <default>false</default>
+                    <label>Homeless</label>
+                </value>
+                <value>
+                    <fullName>Immigrant</fullName>
+                    <default>false</default>
+                    <label>Immigrant</label>
+                </value>
+                <value>
+                    <fullName>International Student</fullName>
+                    <default>false</default>
+                    <label>International Student</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Parent in Military</fullName>
+                    <default>false</default>
+                    <label>Parent in Military</label>
+                </value>
+                <value>
+                    <fullName>Pregnant</fullName>
+                    <default>false</default>
+                    <label>Pregnant</label>
+                </value>
+                <value>
+                    <fullName>Reduced Price Lunch</fullName>
+                    <default>false</default>
+                    <label>Reduced Price Lunch</label>
+                </value>
+                <value>
+                    <fullName>Refugee</fullName>
+                    <default>false</default>
+                    <label>Refugee</label>
+                </value>
+                <value>
+                    <fullName>Section 504 Handicapped</fullName>
+                    <default>false</default>
+                    <label>Section 504 Handicapped</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Field_Of_Study__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The field of study for the Attribute&apos;s Credential.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(hed__Credential__r.hed__Field_Of_Study__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>The field of study for the Attribute&apos;s Credential. Read only.</inlineHelpText>
+        <label>Field of Study</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Activity_End_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The completion date of the Credential requirements.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The completion date of the Credential requirements.</inlineHelpText>
+        <label>Activity End Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hed__Credential_Number__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The certification number or license number of the Attribute&apos;s Credential.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The certification number or license number of the Attribute&apos;s Credential.</inlineHelpText>
+        <label>Credential Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Activity_Start_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The date that the person started earning the Credential.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The date that the person started earning the Credential.</inlineHelpText>
+        <label>Activity Start Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>hed__Verification_Status__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Indicates the verification status of a credential.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Indicates the verification status of a credential.</inlineHelpText>
+        <label>Verification Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Verified</fullName>
+                    <default>false</default>
+                    <label>Verified</label>
+                </value>
+                <value>
+                    <fullName>Pending</fullName>
+                    <default>false</default>
+                    <label>Pending</label>
+                </value>
+                <value>
+                    <fullName>Unverified</fullName>
+                    <default>false</default>
+                    <label>Unverified</label>
+                </value>
+                <value>
+                    <fullName>Revoked</fullName>
+                    <default>false</default>
+                    <label>Revoked</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>hed__Credentialing_Identifier__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <deprecated>false</deprecated>
+        <description>An International Resource Identifier that uniquely identifies this credential.</description>
+        <externalId>true</externalId>
+        <inlineHelpText>An International Resource Identifier that uniquely identifies this credential.</inlineHelpText>
+        <label>Credentialing Identifier</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>hed__Verification_Status_Date__c</fullName>
+        <deprecated>false</deprecated>
+        <description>The most recent date Verification Status changed.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The most recent date Verification Status changed.</inlineHelpText>
+        <label>Verification Status Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <listViews>
+        <fullName>hed__All</fullName>
+        <columns>NAME</columns>
+        <columns>hed__Agency__c</columns>
+        <columns>hed__Attribute_Type__c</columns>
+        <columns>hed__Contact__c</columns>
+        <columns>RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <recordTypes>
+        <fullName>hed__Credential</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>hed__EDA_Credential_Attribute_Compact_Layout</compactLayoutAssignment>
+        <description>Allows educational institutions to track licenses, certifications, or endorsements earned by staff or students.</description>
+        <label>Credential</label>
+        <picklistValues>
+            <picklist>hed__Attribute_Type__c</picklist>
+            <values>
+                <fullName>Certification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Endorsement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Licensure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Role__c</picklist>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enrolled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrew</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Subject_Area__c</picklist>
+            <values>
+                <fullName>Biology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Career and Technical Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English Language Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fine and Performing Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foreign Language</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>History</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life and Physical Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physical%2C Health%2C and Safety Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Studies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sociology</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Verification_Status__c</picklist>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revoked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unverified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verified</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>hed__Student_Characteristic</fullName>
+        <active>true</active>
+        <compactLayoutAssignment>hed__EDA_Student_Characteristic_Attribute_Compact_Layout</compactLayoutAssignment>
+        <description>Allows educational institutions to track important student characteristics that might affect students&apos; education.</description>
+        <label>Student Characteristic</label>
+        <picklistValues>
+            <picklist>hed__Attribute_Type__c</picklist>
+            <values>
+                <fullName>Accommodation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Asylee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economically Disadvantaged</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English Learners</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Family Consideration</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foster Care</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Free Lunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeless</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Immigrant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>International Student</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Parent in Military</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pregnant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reduced Price Lunch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refugee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Section 504 Handicapped</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Role__c</picklist>
+            <values>
+                <fullName>Student</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Status__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enrolled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrew</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Subject_Area__c</picklist>
+            <values>
+                <fullName>Biology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Career and Technical Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English Language Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fine and Performing Arts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Foreign Language</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>History</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life and Physical Sciences</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mathematics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physical%2C Health%2C and Safety Education</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Psychology</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Science</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Social Studies</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sociology</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>hed__Verification_Status__c</picklist>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revoked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unverified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Verified</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>
